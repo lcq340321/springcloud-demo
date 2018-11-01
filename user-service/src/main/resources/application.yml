@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/mybatis
+    username: root
+    password: root
+server:
+  port: 8200
+mybatis:
+  type-aliases-package: com.lexiang.user.pojo
+
